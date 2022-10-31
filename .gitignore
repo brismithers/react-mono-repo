@@ -1,0 +1,17 @@
+# Misc stuff
+desktop.ini
+node_modules/
+
+# TS output dir
+bin/
+out/
+
+# TS --incremental file
+tsconfig.tsbuildinfo
+
+
+# Expo
+apps/*/.expo
+apps/*/__generated__
+apps/*/web-build
+apps/*/bare-apps

@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "target": "es2019",
+        "module": "commonjs",
+        "declaration": true,
+        "sourceMap": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "rootDir": "./src",
+        "outDir": "./bin",
+        "allowUnreachableCode": true
+    },
+    "references": [
+        {
+            "path": "./packages/EMailHelper"
+        },
+        {
+            "path": "./packages/Products"
+        },
+        {
+            "path": "./packages/ValidatorHelper"
+        },
+        {
+            "path": "./apps/MyExpoApp"
+        }
+    ],
+    "files": [
+        "./src/index.ts"
+    ]
+}
